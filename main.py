@@ -91,9 +91,18 @@ import numpy as np
 # print(mat[1:])
 # print(mat[:, 1:])
 
-x = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8], [9, 10, 11]])
-rows = np.array([[0, 0], [3, 3]])
-cols = np.array([[0, 2], [0, 2]])
 
-y = [rows, cols]
-print(y)
+# x = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8], [9, 10, 11]])
+#rows = np.array([[0, 0], [3, 3]])
+#cols = np.array([[0, 2], [0, 2]])
+
+#y = [rows, cols]
+#print(y)
+
+# zad 1
+arr = np.arange(0, 45, 3)
+print(arr)
+
+# zad 2
+arr = np.array([1, 2, 3, 5, 6], dtype='float')
+arr1 = arr.astype('int64')
